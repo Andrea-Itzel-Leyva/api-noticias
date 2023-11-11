@@ -1,0 +1,23 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+  {
+    "titulo": "Cultura y Entretenimiento",
+    "noticia": "Una película independiente recibe elogios de la crítica y se convierte en un fenómeno de taquilla inesperado."
+  }
+
+###
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "Una noticia",
+    "noticia": "Aqui pondre las noticias"
+}
